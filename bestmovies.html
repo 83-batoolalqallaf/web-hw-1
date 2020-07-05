@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> movies  </title>
+    
+   <link rel="stylesheet" href="./assests/css/styles.css">
 </head>
 <body>
     <p> 
@@ -32,13 +34,14 @@
  وفي عام 2013 توسعت شركه نتفلكس بانتاج افلام ومسلسلات وعرضه عبر الانترنت 
  وفي عام 2017 اخذت شركه نتفلكس مدينه لوس انجلوس مدينه لوس انجلوس مقرا لها 
 <br> 
-<a
-      target="_blank" href="assests/images/https:/nitflix2.jpg">
-<img src="assests/images/https:/nitflix2.jpg" width="200"/>
+<a  class="img" target="_blank" href="assests/images/https:/nitflix2.jpg">
+<img src="data:image/png;base64,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" 
+width="100%" height="20%"
+/>
 </a>
 
 <br>
-<h6>  nitflix  </h6>
+
 <p>  
 starzplay وظهرت بالفتره الاخيره مواقع تنافس نتفلكس بالجوده والافلام ومن اشهرها موقع 
 <br> 
@@ -47,13 +50,16 @@ starzplay وظهرت بالفتره الاخيره مواقع تنافس نتف�
 ويقع مقرها الرسمي في ولايه كولورادو الامريكيه منذ عام 2015
 <br>
 <br>
-<a  target="_blank"   href="assests/images/https:/starzplay.png">
-    <img src="assests/images/https:/starzplay.png" width="100"/>
+<a  class="img" target="_blank"   href="https://arabia.starzplay.com/ar/landing?gclid=Cj0KCQjwuJz3BRDTARIsAMg-HxVZ0TAt1BnFKalvI5jn5fJK9JGf9UjrqVnyxVFbtNKY2Ip2nO-MJXMaApm-EALw_wcB">
+    
+    <img
+     src="data:image/jpeg;base64,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"
+     width="100%" height="20%" />
 </a>
 
 <br>
-<a href="https://arabia.starzplay.com/ar/landing?gclid=Cj0KCQjwuJz3BRDTARIsAMg-HxVZ0TAt1BnFKalvI5jn5fJK9JGf9UjrqVnyxVFbtNKY2Ip2nO-MJXMaApm-EALw_wcB">
- <input type="button" value="starzplay">
+<!-- <a href="https://arabia.starzplay.com/ar/landing?gclid=Cj0KCQjwuJz3BRDTARIsAMg-HxVZ0TAt1BnFKalvI5jn5fJK9JGf9UjrqVnyxVFbtNKY2Ip2nO-MJXMaApm-EALw_wcB"> -->
+ <!-- <input type="button" value="starzplay"> -->
 
 </a>
 </p>
@@ -83,7 +89,7 @@ starzplay وظهرت بالفتره الاخيره مواقع تنافس نتف�
  <br>
   </p>
   <a  target="_blank"   href="https://ar.wikipedia.org/wiki/توم_وجيري">
-         <img src=" assests/images/https:/images.png" width="100"/>
+         <img src="https://library.kissclipart.com/20181203/wwq/kissclipart-cartoon-tom-jerry-clipart-jerry-mouse-tom-cat-to-84f72117a796bab0.jpg" width="100%" height="20%"/>
     </a>
     <br>
   <p>  <h6> tom & jeery      </h6> </p>
@@ -95,29 +101,28 @@ starzplay وظهرت بالفتره الاخيره مواقع تنافس نتف�
 وهي تُعد اول سلسله رسوم متحركه تعرض على شاشه السينما 
 </p>
 <a  target="_blank"   href="https://en.wikipedia.org/wiki/Looney_Tunes">
-    <img src=" assests/images/https:/loonytunes.jpg" width="100"/>
+    <img src=" https://i1.wp.com/www.heyuguys.com/images/2018/06/Looney-Tunes.jpg?fit=1200%2C900&ssl=1" width="100%" height="20%"/>
 </a>
 <br> 
 <br>
-   </body> 
+  <a href="./bestseries.html">
+   <input type="button" value="next page ">
+</a>
 </body>
 <br> 
 <br>
- <footer  >
-   <a href="bestseries.html"
-    <form method="GET" action="bestseries.html">
-       
-    <input type="button"  value="next page" />
-    </form>
+
+  
     </a>
     <br>
 <br>
+<footer class="footer ">
    <a  target="-blank"    href="https://www.instagram.com/joincoded/?hl=en" >
-       <img src="assests/images/https:/instgram>png.jpg"  width="20"/>
+       <img src="https://www.nicepng.com/png/detail/356-3563301_instagram-instagram-circle-icon.png" width="5%"/>
       </a>
       <a   target="_blank" href="https://app.code.kw/tracks/">
-    <img src="assests/images/https:/brmja.png" width="30"/>
+    <img src="https://skipway.com/wp-content/uploads/2020/05/image-20150902-6700-t2axrz.jpg" width="5%"/>
     </a>
- </footer>
+</footer>
   
 </html>
